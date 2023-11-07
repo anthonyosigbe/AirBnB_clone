@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """This establishes the BaseModel class."""
-import uuid
 import models
+from uuid import uuid4
 from datetime import datetime
 
 
@@ -48,4 +48,5 @@ class BaseModel:
         record["created_at"] = self.created_at.isoformat()
         record["updated_at"] = self.updated_at.isoformat()
         record["__class__"] = self.__class__.__name__
+
         return record
