@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """cmd control module console.py, for test specific functionality"""
 import cmd
