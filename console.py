@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """cmd control module console.py, for test specific functionality"""
 import cmd
@@ -6,6 +6,7 @@ from models.user import User
 from shlex import split
 from models import storage
 from models.base_model import BaseModel
+
 
 class HBNBCommand(cmd.Cmd):
     # Initialize the prompt string
@@ -149,6 +150,6 @@ class HBNBCommand(cmd.Cmd):
                     obj.__dict__[k] = v
         storage.save()
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
-
