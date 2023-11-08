@@ -3,6 +3,7 @@
 """cmd control module console.py, for test specific functionality"""
 import cmd
 
+
 class HBNBCommand(cmd.Cmd):
     # Initialize the prompt string
     prompt = '(hbnb) '
@@ -17,6 +18,6 @@ class HBNBCommand(cmd.Cmd):
         print()  # Print a new line for better formatting
         return True
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
-
