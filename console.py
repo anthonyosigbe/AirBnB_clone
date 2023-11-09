@@ -82,7 +82,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_EOF(self, arg):
         """EOF signal to exit the program."""
-        print("")
+        print("EOF  help  quit")
         return True
 
     def do_create(self, arg):
@@ -163,8 +163,9 @@ class HBNBCommand(cmd.Cmd):
         """Usage: update <class> <id> <attribute_name> <attribute_value> or
        <class>.update(<id>, <attribute_name>, <attribute_value>) or
        <class>.update(<id>, <dictionary>)
-        Update a class instance of a given id by adding or updating
-        a given attribute key/value pair or dictionary."""
+        Modify a class instance with a specified ID by adding or
+        updating information of a given attribute key/value pair
+        or dictionary."""
         argl = parse(arg)
         objdict = storage.all()
 
