@@ -86,8 +86,7 @@ Documented commands (type help <topic>):
 EOF help quit
 (hbnb)
 
-
-<h2> filws and tasks completed </h2>
+ TASKS COMPLETED FOR THIS PROJECT
 *  0. README, AUTHORS
 * 1. Be pycodestyle compliant!
 * 2. Unittests
