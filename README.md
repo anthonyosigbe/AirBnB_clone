@@ -87,7 +87,7 @@ EOF help quit
 (hbnb)
 
 
-<h3> filws and tasks completed </h3>
+<h2> filws and tasks completed </h2>
 *  0. README, AUTHORS
 * 1. Be pycodestyle compliant!
 * 2. Unittests
