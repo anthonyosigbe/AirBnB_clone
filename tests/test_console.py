@@ -12,7 +12,7 @@ from unittest.mock import patch
 
 
 class TestHBNBCommand_prompting(unittest.TestCase):
-    """Unittests aimed at examining the prompting
+    """Unittests aimed at Checking the prompting
        behavior of the HBNB command interpreter.
     """
     def test_prompt_string(self):
@@ -25,7 +25,7 @@ class TestHBNBCommand_prompting(unittest.TestCase):
 
 
 class TestHBNBCommand_help(unittest.TestCase):
-    """Unittests designed to evaluate the help messages
+    """Unittests designed to Consider the help messages
        provided by the HBNB command interpreter.
     """
     def test_help_quit(self):
