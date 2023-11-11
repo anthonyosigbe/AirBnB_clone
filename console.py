@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Sets up the HBnB console."""
+"""Sets up the HBnB control console."""
 import cmd
 from models.user import User
 from shlex import split
@@ -34,7 +34,7 @@ def parse(arg):
 class HBNBCommand(cmd.Cmd):
     """Establishes the HBnB command interpreter.
 
-    Att:
+    Attr:
         prompt (str): The command prompt.
     """
 
