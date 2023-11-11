@@ -6,7 +6,7 @@ from models.base_model import BaseModel
 class User(BaseModel):
     """Represent a User.
 
-    Attributes:
+    Attr:
         All user information collected in string format
     """
 
