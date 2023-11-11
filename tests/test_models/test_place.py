@@ -16,7 +16,7 @@ from models.place import Place
 
 
 class TestPlace_instantiation(unittest.TestCase):
-    """Unit tests for verifying the instantiation of the Place class."""
+    """Unit tests for Certifying the instantiation of the Place class."""
 
     def test_no_args_instantiates(self):
         self.assertEqual(Place, type(Place()))
@@ -146,7 +146,7 @@ class TestPlace_instantiation(unittest.TestCase):
 
 
 class TestPlace_save(unittest.TestCase):
-    """Unit tests for evaluating the save method of the Place class."""
+    """Unit tests for Examining the save method of the Place class."""
 
     @classmethod
     def setUp(self):
@@ -197,7 +197,7 @@ class TestPlace_save(unittest.TestCase):
 
 
 class TestPlace_to_dict(unittest.TestCase):
-    """Unittests for assessing the to_dict method of the Place class."""
+    """Unittests for Analyzing the to_dict method of the Place class."""
 
     def test_to_dict_type(self):
         self.assertTrue(dict, type(Place().to_dict()))
