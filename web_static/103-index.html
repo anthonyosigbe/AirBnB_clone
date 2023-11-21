@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AirBnB clone</title>
+	<link rel="stylesheet" href="styles/103-common.css">
+	<link rel="stylesheet" href="styles/103-header.css">
+	<link rel="stylesheet" href="styles/103-footer.css">
+	<link rel="stylesheet" href="styles/103-filters.css">
+	<link rel="stylesheet" href="styles/103-places.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body>
+	<header>
+    <div class="mobile_nav" role="navigation" aria-label="Navigate through site content">
+      <label for="main_check" class="nav_burger">|||</label>
+      <input type="checkbox" id="main_check" name="main_check" class="nav_check" aria-hidden="true" tabindex="0">
+        <nav>
+            <ul class="nav_bar">
+              <li>
+                  <label for="second_check"><span>States</span></label>
+                  <input type="checkbox" name="second_check" id="second_check" aria-hidden="true">
+                <ul>
+                  <li><span>Arizona</span></li>
+                  <li><span>California</span></li>
+                </ul>
+                </li>
+              <li>
+                <label for="third_check"><span>Amenities</span></label>
+                <input type="checkbox" name="second_check" id="third_check" aria-hidden="true">
+                <ul>
+                  <li><span>Internet</span></li>
+                  <li><span>Tv</span></li>
+                  <li><span>Wifi</span></li>
+                  <li><span>Kitchen</span></li>
+                  <li><span>Iron</span></li>
+                </ul>
+                </li>
+            </ul>
+      </nav>
+    </div>
+  </header>
+	<div class="container">
+		<section class="filters" role="navigation">
+			<div class="locations">
+				<h3 class="filter-title">States</h3>
+				<h4 class="filter-description">California, Arizona...</h4>
+				<ul class="popover">
+					<li class="popover-item">
+						<h2 class="popover-state">Arizona:</h2>
+						<ul class="popover-items">
+							<li>Phoenix</li>
+							<li>Tucson</li>
+						</ul>
+					</li>
+					<li class="popover-item">
+						<h2 class="popover-state">California:</h2>
+						<ul class="popover-items">
+							<li>San Diego</li>
+							<li>San Francisco</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="amenities">
+				<h3 class="filter-title">Amenities</h3>
+				<h4 class="filter-description">Internet, Kitchen...</h4>
+				<ul class="popover popover-aligned">
+					<li>Internet</li>
+					<li>Kitchen</li>
+					<li>Pool</li>
+					<li>TV</li>
+				</ul>
+			</div>
+			<button class="btn button-filters">Search</button>
+		</section>
+		<section class="places">
+			<h1>Places</h1>
+			<article class="place-info">
+				<h2>My home</h2>
+				<div class="price_by_night">
+					<p>&#36;65</p>
+				</div>
+				<div class="information">
+					<div class="max_guest">
+						<p>2 Guests</p>
+					</div>
+					<div class="number_rooms">
+						<p>2 Bedrooms</p>
+					</div>
+					<div class="number_bathrooms">
+						<p>1 Bathrooms</p>
+					</div>
+				</div>
+				<div class="user">
+					<p><strong>Owner:</strong> David Kadiri</p>
+				</div>
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+					doloremque qui incidunt, saepe dolore culpa sint facilis non obcaecati quo nisi autem
+					beatae minima odio repudiandae error praesentium et quam!</p>
+				</div>
+
+				<div class="amenities">
+					<h2>Amenities</h2>
+					<ul>
+						<li>
+							<div class="amenities_pet_friendly"></div>
+							Pet friendly
+					</li>
+						<li>
+							<div class="amenities_tv"></div>
+							Tv
+					</li>
+						<li>
+							<div class="amenities_wifi"></div>
+							Wifi
+					</li>
+					</ul>
+				</div>
+				<div class="reviews">
+					<h2>2 Reviews</h2>
+					<ul>
+						<li>
+							<h3>From Bob Dylan the 27th August 2022</h3>
+							<p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+						</li>
+						<li>
+							<h3>From Connor 4th August 2022</h3>
+							<p>Higly recommended!</p>
+						</li>
+					</ul>
+				</div>
+       
+			</article>
+			<article>
+				<h2>Tiny House</h2>
+				<div class="price_by_night">
+					<p>&#36;90</p>
+				</div>
+				<div class="information">
+					<div class="max_guest">
+						<p>4 Guests</p>
+					</div>
+					<div class="number_rooms">
+						<p>2 Bedrooms</p>
+					</div>
+					<div class="number_bathrooms">
+						<p>2 Bathrooms</p>
+					</div>
+				</div>
+				<div class="user">
+					<p><strong>Owner:</strong> Nicole Anthony</p>
+				</div>
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Maxime voluptates facilis placeat distinctio reprehenderit magnam officiis consectetur rem,
+					expedita mollitia vel provident. Ad id laborum, excepturi esse hic quas nihil.</p>
+				</div>
+				<div class="amenities">
+					<h2>Amenities</h2>
+					<ul>
+						<li>
+							<div class="amenities_pet_friendly"></div>
+							Pet friendly
+					</li>
+						<li>
+							<div class="amenities_tv"></div>
+							Tv
+					</li>
+						<li>
+							<div class="amenities_wifi"></div>
+							Wifi
+					</li>
+					</ul>
+				</div>
+				<div class="reviews">
+					<h2>2 Reviews</h2>
+					<ul>
+						<li>
+							<h3>From Keziah the 27th August 2023</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id fugit,
+							quos officia cum accusantium. Commodi aperiam, libero recusandae, officia illo enim aliquid fugit
+							consequatur aspernatur qui inventore totam? Similique?</p>
+						</li>
+						<li>
+							<h3>From Nikky Lawrence 4th August 2023</h3>
+							<p>Great Experience</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article>
+				<h2>Suite</h2>
+				<div class="price_by_night">
+					<p>&#36;150</p>
+				</div>
+				<div class="information">
+					<div class="max_guest">
+						<p>6 Guests</p>
+					</div>
+					<div class="number_rooms">
+						<p>3 Bedrooms</p>
+					</div>
+					<div class="number_bathrooms">
+						<p>2 Bathrooms</p>
+					</div>
+				</div>
+				<div class="user">
+					<p><strong>Owner:</strong> Mike Davis</p>
+				</div>
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Eum iure, dolorem ipsa nostrum molestias asperiores culpa voluptates quo fugiat libero esse
+					voluptatum debitis ad odit deserunt pariatur laudantium eaque aliquid!</p>
+				</div>
+				<div class="amenities">
+					<h2>Amenities</h2>
+					<ul>
+						<li>
+							<div class="amenities_pet_friendly"></div>
+							Pet friendly
+					</li>
+						<li>
+							<div class="amenities_tv"></div>
+							Tv
+					</li>
+						<li>
+							<div class="amenities_wifi"></div>
+							Wifi
+					</li>
+					</ul>
+				</div>
+				<div class="reviews">
+					<h2>2 Reviews</h2>
+					<ul>
+						<li>
+							<h3>From Bob Dylan the 27th August 2022</h3>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+							Nihil temporibus ipsa impedit rem, ut facilis, aperiam id sequi a necessitatibus
+							sint at eum nulla! Libero quos illum adipisci sint animi.</p>
+						</li>
+						<li>
+							<h3>From Connor 4th August 2022</h3>
+							<p>Higly recommended!</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+      <article>
+				<h2>King Suite</h2>
+				<div class="price_by_night">
+					<p>&#36;250</p>
+				</div>
+				<div class="information">
+					<div class="max_guest">
+						<p>8 Guests</p>
+					</div>
+					<div class="number_rooms">
+						<p>6 Bedrooms</p>
+					</div>
+					<div class="number_bathrooms">
+						<p>5 Bathrooms</p>
+					</div>
+				</div>
+				<div class="user">
+					<p><strong>Owner:</strong> Anthony Bradley</p>
+				</div>
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+					Exercitationem nesciunt deleniti ut tempore harum asperiores nisi consectetur nobis nam provident velit,
+					sit voluptas placeat modi error veritatis perferendis tenetur illum!</p>
+				</div>
+				<div class="amenities">
+					<h2>Amenities</h2>
+					<ul>
+						<li>
+							<div class="amenities_pet_friendly"></div>
+							Pet friendly
+					</li>
+						<li>
+							<div class="amenities_tv"></div>
+							Tv
+					</li>
+						<li>
+							<div class="amenities_wifi"></div>
+							Wifi
+					</li>
+					</ul>
+				</div>
+				<div class="reviews">
+					<h2>1 Reviews</h2>
+					<ul>
+						<li>
+							<h3>From Gabriel Likita the 27th May 2023</h3>
+							<p>Great time spent here with respected staff.stop</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+		</section>
+	</div>
+	<footer class="footer">
+		<p>Best school</p>
+	</footer>
+</body>
+</html>
